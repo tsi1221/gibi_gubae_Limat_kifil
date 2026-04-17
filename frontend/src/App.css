@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #f6f7ff 0%, #eef6ff 100%);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #1f2937;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.topbar p {
+  margin: 0.2rem 0 0;
+  color: #4b5563;
+}
+
+.status {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  background: #ecfeff;
+  border: 1px solid #99f6e4;
+  color: #115e59;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0.55rem 0.7rem;
+  margin-bottom: 0.6rem;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.auth-card form,
+.actions-grid form {
+  display: grid;
+}
+
+.auth-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.auth-tabs button {
+  flex: 1;
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.auth-tabs .active {
+  background: #111827;
+  color: #fff;
+}
+
+.actions-grid,
+.content-grid,
+.stats-grid,
+.moderation-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.actions-grid,
+.content-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stats-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h3 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.item {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 0.8rem;
+  margin-top: 0.8rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1e3a8a;
+}
+
+.subitems p {
+  margin: 0.2rem 0;
+}
+
+.inline-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inline-form input {
+  margin: 0;
+}
+
+.user-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .actions-grid,
+  .content-grid,
+  .stats-grid,
+  .moderation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inline-form {
+    flex-direction: column;
+  }
+}
