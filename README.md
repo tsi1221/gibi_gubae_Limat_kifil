@@ -1,16 +1,71 @@
-# React + Vite
+# Gibi Gubae Limat Kifil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern frontend static website built for a church/community platform. This project is designed to provide information, share updates, connect members, and allow visitors to ask questions.
 
-Currently, two official plugins are available:
+## Pages Included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Home
+- About
+- Services
+- Members
+- New Members
+- Blog
+- Contact Us
+- Ask Me Anything
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern responsive design
+- Clean user interface
+- Easy navigation
+- Community-focused layout
+- Fast performance with Vite
+- Built with reusable React components
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+## Getting Started
+
+### Install Dependencies
+
+npm install
+
+### Run Development Server
+
+npm run dev
+
+### Build for Production
+
+npm run build
+
+## Project Structure
+
+src/
+components/
+pages/
+assets/
+styles/
+
+## Future Improvements
+
+- User login & registration
+- Admin dashboard
+- Dynamic blog system
+- Member management
+- Backend API integration
+- Database connection
+- Notifications system
+- Search functionality
+
+## Purpose
+
+This platform is created to help strengthen communication, share resources, support members, and grow the community digitally.
+
+## Author
+
+Built by Tsi
