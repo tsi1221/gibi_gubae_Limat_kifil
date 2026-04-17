@@ -66,6 +66,6 @@ styles/
 
 This platform is created to help strengthen communication, share resources, support members, and grow the community digitally.
 
-## Author
+## Authors
 
-Built by Tsi
+Built by Tsehaynesh (Tsi) and Eyob
