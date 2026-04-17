@@ -83,7 +83,7 @@ function App() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      void loadFeed();
+      loadFeed();
     }, 0);
 
     return () => clearTimeout(timer);
@@ -91,7 +91,7 @@ function App() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      void loadAdminData();
+      loadAdminData();
     }, 0);
 
     return () => clearTimeout(timer);

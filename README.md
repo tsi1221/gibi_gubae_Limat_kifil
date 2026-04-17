@@ -40,3 +40,9 @@ Override with `VITE_API_URL` if needed.
 ## Admin Role
 
 Set `ADMIN_EMAILS` in `backend/.env` (comma-separated). Any registered user with matching email is created with `admin` role.
+
+## Security Defaults
+
+- `FRONTEND_URL` supports one or more comma-separated allowed origins for CORS.
+- `RATE_LIMIT_MAX` controls general API request limits per 15 minutes.
+- `AUTH_RATE_LIMIT_MAX` controls stricter auth endpoint limits per 15 minutes.
